@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('form').on('submit', function(e) {
         e.preventDefault();
-        let toAdd = $('#tarefa-nova').val();
-        $('ul').append('<li>' + toAdd + '</li>');
+        let addTarefa = $('#tarefa-nova').val();
+        $('ul').append('<li>' + addTarefa + '</li>');
         console.log(toAdd);
     });
 
