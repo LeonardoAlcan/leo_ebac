@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+input, button {
+    padding: 4px;
+}
+
+form button {
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+ul li {
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.active {
+    text-decoration: line-through;
+}
+
